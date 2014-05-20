@@ -11,6 +11,7 @@ var notification = require("notification-box").NotificationBox({
   'buttons': [{'label': "Do something about it!",
               'onClick': function () { console.log("You clicked the important button!"); }}]
 });
+notification.clearNotifications(notification_value); // clears all notifications, from all tabs, with this value
 ```
 
 It implements the following options:
